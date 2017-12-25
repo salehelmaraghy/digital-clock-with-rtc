@@ -1,6 +1,7 @@
 # digital-clock-with-rtc
 
 this simple project is to implement a digital clock using timers and display it on  7-segments and save the time to RTC and modify 
+The RTC here is used just as a backup if the power is unplugged.
 
 the time using buttons. 
 
