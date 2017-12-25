@@ -4,10 +4,10 @@ this simple project is to implement a digital clock using timers and display it 
 
 the time using buttons. 
 
-#Devices:
+# Devices:
 Micro-controller:ATmega32.
 
-.external peripherals:
+. external peripherals:
 
 Real time clock RTC "DS1307": to store the time.
 
@@ -21,7 +21,7 @@ I2C:to communicate with the RTC.
 
 timer:to get the time every 30 seconds from the RTC and compare it with the.
 
-#Pin configuration:
+# Pin configuration:
 
 7-segment : PORT B0 B1 B2 B3 for the data and PORT C2 C3 C4 C5 for enabling the 7-segments.
 
@@ -31,13 +31,13 @@ Led       : Port D4 to blink each second.
 
 Buttons	  :	Port D2 D3 for user interface.
 
-#Steps:
+# Steps:
 
 first take the folder "RTC_INITAL_VALUE" add it to a separate project and add the initial time to it.
 
 then create a new project and copy the folders "MCAL-HAL-Service_layer-Application_layer" to it.
 
-#Application:
+# Application:
 
 1- The micro-controller will get the time from RTC. "that you have added to the "RTC_INITAL_VALUE" project.
 
